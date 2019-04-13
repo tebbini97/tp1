@@ -16,7 +16,7 @@
                 //echo 'Connexion réussie';
                 mysql_select_db ("tp1");
                 
-                $qry="insert into user (email, nom, prenom, mpasse, interer) values ('$email', '$nom', '$prenom', '$password', '$interet')";
+                $qry="insert into user (email, nom, prenom, mdp, interer) values ('$email', '$nom', '$prenom', '$password', '$interet')";
                 echo $qry;
                 mysql_query($qry);
 

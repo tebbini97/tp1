@@ -17,10 +17,11 @@
             mysql_close($link);
             ?>
         
-<img src="design-highly-unique-conceptual-logo (1).png" alt="logo"  /> <br>
-<button type="button"  class="btn btn-danger">déconnecté  <a href="connexion.html">un lien interne  </a></button> <br>
-
-<button type="button" class="btn btn-info">profil  </button> <br>
+<img src="../images/logo.png" alt="logo"  /> <br>
+<button type="button"  class="btn btn-danger">déconnecté  <a href="connexion.php">un lien interne  </a></button> <br>
+<a href="profil.php">
+<button type="button" class="btn btn-info">profil  </button> </a>
+ <br>
 <p>
     <h2>TODO</h2>
 </p> <br>
