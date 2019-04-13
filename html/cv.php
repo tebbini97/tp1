@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="../2.css/bootstrap.min - Raccourci.lnk">
     </head>
     <body>
+    <style>
+
+{
+ 
+ background-color:rgb(179, 125, 125);
+
+}
+</style> 
             <?php
             
             $link = mysql_connect("localhost", "root", "")
