@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="../2.css/bootstrap.min - Raccourci.lnk">
     </head>
     <body>
+            <?php
+            
+            $link = mysql_connect("localhost", "root", "")
+                or die("Impossible de se connecter : " . mysql_error());
+            echo 'Connexion réussie';
+            mysql_close($link);
+            ?>
         <p>
             tebbini oumayma <br>
             tebbini oumayma @gmail.com

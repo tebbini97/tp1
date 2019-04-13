@@ -9,6 +9,14 @@
     
 </head>
 <body>
+<?php
+            
+            $link = mysql_connect("localhost", "root", "")
+                or die("Impossible de se connecter : " . mysql_error());
+            echo 'Connexion réussie';
+            mysql_close($link);
+            ?>
+            
         <img src="design-highly-unique-conceptual-logo (1).png" alt="logo"  /> <br> 
         <button type="button"class="btn btn-primary">connexion <a href="connexion.html">un lien interne</a>   </button> <br>
         
